@@ -1,0 +1,124 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  top: 36px;
+  right: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.container {
+  height: 29rem;
+  background-color: rgb(7, 115, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 5px 0px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container ul {
+  list-style: none;
+  color: white;
+}
+.container li {
+  /*margin: 20px 0;
+  */
+  font-size: 12px;
+  padding: 15px 10px;
+  border-radius: 0px 10px 10px 0;
+  transition: all 0.3s ease-out;
+  -webkit-border-radius: 0px 10px 10px 0;
+  -moz-border-radius: 0px 10px 10px 0;
+  -ms-border-radius: 0px 10px 10px 0;
+  -o-border-radius: 0px 10px 10px 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  width: 248px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.profile img {
+  width: 30%;
+  margin: 10px 0;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.profile span {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+li a {
+  text-decoration: none;
+}
+.footer {
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+}
+.footer a {
+  color: white;
+  margin: 0;
+}
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+li:has(.active) {
+  background-color: white;
+}
+.active {
+  color: black !important;
+}
+.font {
+  font-size: 15px;
+  margin-left: 5px;
+}
+a:hover {
+  color: darkblue;
+}

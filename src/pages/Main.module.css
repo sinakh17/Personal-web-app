@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.container p {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.178);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container img {
+  width: 20%;
+  height: 30%;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.buttons a {
+  background-color: rgb(7, 115, 204);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.buttons a:hover {
+  background-color: rgb(6, 72, 126);
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .container p {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    font-size: 12px;
+    width: 60%;
+  }
+  .buttons a {
+    display: block;
+    margin-top: 10px;
+  }
+}

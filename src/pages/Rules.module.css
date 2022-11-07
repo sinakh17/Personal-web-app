@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.178);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.font {
+  font-size: 15px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 200px;
+  }
+}
